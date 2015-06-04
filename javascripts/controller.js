@@ -5,16 +5,9 @@ var rohan = new Card("rohan", "<img src = http://wellingtontimebank.org.nz/sites
 var rohan2 = new Card("rohan", "<img src = http://wellingtontimebank.org.nz/sites/wellingtontimebank.org.nz/files/Rohan%20Wakefield.jpg >", false);
 var darcy = new Card("darcy", "<img src = https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/041/3ae/04d4230.jpg>", false);
 var darcy2 = new Card("darcy", "<img src = https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/041/3ae/04d4230.jpg>", false);
-var kerwin = new Card("darcy", "<img src = https://yt3.ggpht.com/-VNCbHXwPKHA/AAAAAAAAAAI/AAAAAAAAAAA/zTHO0QRPbbk/s900-c-k-no/photo.jpg>", false);
-var kerwin2 = new Card("darcy", "<img id='img_1' src = https://yt3.ggpht.com/-VNCbHXwPKHA/AAAAAAAAAAI/AAAAAAAAAAA/zTHO0QRPbbk/s900-c-k-no/photo.jpg>", false);
+var kerwin = new Card("kerwin", "<img id='img_2' src = https://yt3.ggpht.com/-VNCbHXwPKHA/AAAAAAAAAAI/AAAAAAAAAAA/zTHO0QRPbbk/s900-c-k-no/photo.jpg>", false);
+var kerwin2 = new Card("kerwin", "<img id='img_1' src = https://yt3.ggpht.com/-VNCbHXwPKHA/AAAAAAAAAAI/AAAAAAAAAAA/zTHO0QRPbbk/s900-c-k-no/photo.jpg>", false);
 
-
-
-
-// var $dog = $('dog')
-// var $dog2 = $('dog2')
-// var $cat = $('cat')
-// var $cat2 = $('cat2')
 
 var cardsArray = [
 joshua, joshua2, rohan, rohan2,
