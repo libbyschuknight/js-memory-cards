@@ -1,4 +1,5 @@
 
 $(document).ready(function () {
-    placeCard(cardsArray);
+    placeCard(cardsArray)
+
 })
