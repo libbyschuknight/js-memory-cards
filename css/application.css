@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+html {
+  width: 100%;
+  text-align: center;
+}
+
+* {
+  border: 1px solid lightgray;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #black;
+  font-family: 'Raleway', 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+#container {
+  /*height: 600px;*/
+  width: 90%;
+}
+
+main {
+  height: 500px
+  }
+}
