@@ -26,14 +26,9 @@ kerwin, kerwin2, rohan, rohan2
 // kerwin, kerwin2, rohan, rohan2
 // ]
 
-
-$(document).ready(function () {
+function placeCard(array) {
   for (var i = 1; i < 17; i ++){
     var $id = $(document).find("#" + i);
-    var object = cardsArray[i-1];
+    var object = array[i-1];
     $id.html(object.image_src);
-  }
-
-
-
-})
+  }};
