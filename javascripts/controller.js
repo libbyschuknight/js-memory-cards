@@ -40,3 +40,16 @@ function placeCard(array) {
     var object = array[i-1];
     $id.html(object.image_src);
   }};
+
+
+
+
+
+
+
+
+
+
+
+
+
