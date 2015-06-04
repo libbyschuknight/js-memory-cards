@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/application.css">
 
     <script type="text/javascript"src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -12,7 +13,7 @@
   </head>
 
   <body>
-    <div id="container">
+    <div id="outer-container">
       <header>
         <h1>EDA Memory Game</h1>
       </header>
@@ -20,14 +21,33 @@
       <main>
         board
 
-        <div class="grid-container outline">
+        <!-- 2 by 2 -->
+        <div class="container">
           <div class="row">
-            <div id ="1" class="col-2"><p>col-2 cell 1</p></div>
-            <div id ="2" class="col-2"><p>col-2 cell 2</p></div>
-            <div id ="3" class="col-2"><p>col-2 cell 3</p></div>
-            <div id ="4" class="col-2"><p>col-2 cell 4</p></div>
+            <div id ="1" class="col-md-6"><p>cell 1</p></div>
+            <div id ="2" class="col-md-6"><p>cell 2</p></div>
           </div>
         </div>
+        <div class="container">
+          <div class="row">
+            <div id ="3" class="col-md-6"><p>cell 3</p></div>
+            <div id ="4" class="col-md-6"><p>cell 4</p></div>
+          </div>
+        </div>
+
+        <!-- 4 by 4 -->
+<!--         <div class="container">
+          <div class="row">
+            <div id ="1" class="col-md-3"><p>cell 1</p></div>
+            <div id ="2" class="col-md-3"><p>cell 2</p></div>
+            <div id ="3" class="col-md-3"><p>cell 3</p></div>
+            <div id ="4" class="col-md-3"><p>cell 4</p></div>
+          </div>
+        </div> -->
+
+
+
+
       </main>
 
       <footer>

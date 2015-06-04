@@ -1,10 +1,9 @@
 
-function Card(match, description, state){
+function Card(match, image_src, state){
   this.match = match;
-  this.description = description;
+  this.image_src = image_src;
   this.state = state;
 };
-
 
 
 
