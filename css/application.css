@@ -33,12 +33,20 @@ main {
 
 /*   4 by 4   */
 .col-md-3 {
-  border: 1px solid lightgray;
-
+  border: 5px solid lightgray;
+  width: 200px;
+  height: 180px;
+  padding: 1px;
+  margin: 5px;
 }
 
+.col-md-3 img {
+  width: 150px;
+}
+
+
 /*   2 x 2    */
-.col-md-6 {
+/*.col-md-6 {
   border: 5px solid lightgray;
   width: 45%;
   height: 250px;
@@ -48,7 +56,7 @@ main {
 .col-md-6 img {
   width: 200px;
 }
-
+*/
 
 /*############ 2 by 2 Grid ######################*/
 
