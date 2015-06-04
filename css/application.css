@@ -47,6 +47,10 @@ main {
   height: 180px;
   padding: 1px;
   margin: 5px;
+  /*background-color: red;*/
+  background-image: url("../eda_logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .col-md-3 img {
