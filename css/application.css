@@ -6,7 +6,7 @@ html {
 }
 
 * {
-  border: 1px solid lightgray;
+  /*border: 1px solid lightgray;*/
   margin: 0 auto;
 }
 
@@ -15,86 +15,46 @@ body {
   font-family: 'Raleway', 'Trebuchet MS', Helvetica, sans-serif;
 }
 
-#container {
-  /*height: 600px;*/
+#outer-container {
+  border: 1px solid lightgray;
   width: 90%;
 }
 
 main {
-  width:75%;
+  border: 1px solid lightgray;
+
+  width:90%;
   margin-top: 10px;
   margin-bottom: 10px;
-  /*height: 500px;*/
-  }
 }
 
+/*#### hiding images ####*/
 
-/*############ 2 by 2 Grid ######################*/
+#img_1 {
+  display: none;
 
-.grid-container{
-    width: 100%;
-    max-width: 800px;
-}
-
-/*-- our cleafix hack -- */
-.row:before,
-.row:after {
-    content:"";
-      display: table ;
-    clear:both;
-}
-
-[class*='col-'] {
-    float: left;
-    min-height: 1px;
-    width: 25%;
-    /*-- our gutter -- */
-    padding: 12px;
-    background-color: #fff;
-}
-
-/*.col-1{ width: 16.66%; }*/
-.col-2{
-  width: 40%;
-  height: 350px;
-  margin: 10px;
-}
-/*.col-3{ width: 50%;    }*/
-/*.col-4{ width: 66.66%; }*/
-/*.col-5{ width: 83.33%; }*/
-/*.col-6{ width: 100%;   }*/
-
-.outline, .outline *{
-    outline: 1px solid #lightgray;
-}
-
-/*-- some extra column content styling --*/
-[class*='col-'] > p {
- background-color: #FFC2C2;
- padding: 0;
- margin: 0;
- text-align: center;
- color: white;
 }
 
 
 
+/*########## Bootstrap Grid ##################*/
 
+/*   4 by 4   */
+.col-md-3 {
+  border: 5px solid lightgray;
+  width: 200px;
+  height: 180px;
+  padding: 1px;
+  margin: 5px;
+  /*background-color: red;*/
+  /* refactor background image attrs down to one line*/
+  background-image: url("../eda_logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.col-md-3 img {
+  width: 150px;
+}
 
