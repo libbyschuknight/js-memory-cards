@@ -16,22 +16,22 @@ var kerwin2 = new Card("darcy", "<img id='img_1' src = https://yt3.ggpht.com/-VN
 // var $cat = $('cat')
 // var $cat2 = $('cat2')
 
-// var cardsArray = [
-// joshua, joshua2, rohan, rohan2,
-// darcy, darcy2, kerwin, kerwin2,
-// joshua, joshua2, darcy, darcy2,
-// kerwin, kerwin2, rohan, rohan2
-// ].sort(function() {
-//   return .5 - Math.random();
-// });
-
-
 var cardsArray = [
 joshua, joshua2, rohan, rohan2,
 darcy, darcy2, kerwin, kerwin2,
 joshua, joshua2, darcy, darcy2,
 kerwin, kerwin2, rohan, rohan2
-]
+].sort(function() {
+  return .5 - Math.random();
+});
+
+// //set array - not shuffling
+// var cardsArray = [
+// joshua, joshua2, rohan, rohan2,
+// darcy, darcy2, kerwin, kerwin2,
+// joshua, joshua2, darcy, darcy2,
+// kerwin, kerwin2, rohan, rohan2
+// ]
 
 
 $(document).ready(function () {
