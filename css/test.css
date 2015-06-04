@@ -1,0 +1,163 @@
+
+
+
+
+###### First way HTML ######
+
+
+        <div class="grid-container outline">
+<!--             <div class="row">
+                <div class="col-1"><p>col-1</p></div>
+                <div class="col-1"><p>col-1</p></div>
+                <div class="col-1"><p>col-1</p></div>
+                <div class="col-1"><p>col-1</p></div>
+            </div> -->
+            <div class="row">
+                <div class="col-2"><p>col-2</p></div>
+                <div class="col-2"><p>col-2</p></div>
+                <div class="col-2"><p>col-2</p></div>
+                <div class="col-2"><p>col-2</p></div>
+            </div>
+<!--             <div class="row">
+                <div class="col-3"><p>col-3</p></div>
+                <div class="col-3"><p>col-3</p></div>
+            </div> -->
+        </div>
+
+
+
+
+###### First way CSS ###########
+.grid-container{
+    width: 100%;
+    max-width: 1200px;
+}
+
+/*-- our cleafix hack -- */
+.row:before,
+.row:after {
+    content:"";
+      display: table ;
+    clear:both;
+}
+
+[class*='col-'] {
+    float: left;
+    min-height: 1px;
+    width: 16.66%;
+    /*-- our gutter -- */
+    padding: 12px;
+    background-color: #FFDCDC;
+}
+
+/*.col-1{ width: 16.66%; }*/
+.col-2{ width: 33.33%; }
+/*.col-3{ width: 50%;    }*/
+/*.col-4{ width: 66.66%; }*/
+/*.col-5{ width: 83.33%; }*/
+/*.col-6{ width: 100%;   }*/
+
+.outline, .outline *{
+    outline: 1px solid #F6A1A1;
+}
+
+/*-- some extra column content styling --*/
+[class*='col-'] > p {
+ background-color: #FFC2C2;
+ padding: 0;
+ margin: 0;
+ text-align: center;
+ color: white;
+}
+
+/*#####################################################*/
+
+
+
+/*###### second ###############*/
+
+/*## html ##*/
+
+<div>col 1</div>
+<div>col 2</div>
+<div>col 3</div>
+<div>col 4</div>
+
+/*## css ##*/
+
+main {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+main div {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+main div:nth-of-type(1) {
+    background: #ccc;
+}
+
+main div:nth-of-type(2) {
+    background: #bbb;
+    border-left: 1px solid #f00;
+}
+
+main div:nth-of-type(3) {
+    background: #aaa;
+    border-top: 1px solid #f00;
+}
+
+main div:nth-of-type(4) {
+    background: #ddd;
+    border-top: 1px solid #f00;
+    border-left: 1px solid #f00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
