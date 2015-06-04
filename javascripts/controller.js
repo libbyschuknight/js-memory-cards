@@ -45,3 +45,15 @@ function placeCard(array) {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+>>>>>>> master
