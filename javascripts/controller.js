@@ -41,3 +41,7 @@ function placeCard(array) {
     $id.html(object.image_src);
     $id.addClass(object.match);
   }};
+
+
+
+
