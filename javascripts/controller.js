@@ -42,18 +42,3 @@ function placeCard(array) {
     $id.addClass(object.match);
   }};
 
-
-
-
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
-
-
->>>>>>> master
