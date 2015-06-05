@@ -4,11 +4,11 @@ $(document).ready(function () {
   var cards_clicked = [];
   var img_info_array = [];
   var winning_array = [];
-  var count = 0;
 
   placeCard(cardsArray);
 
   $('.col-md-3').on('click', function(){
+    count ++;
     var $img_info = $(this).children();
     img_info_array.push($img_info);
     $img_info.show();
@@ -19,6 +19,7 @@ $(document).ready(function () {
       if ( cards_clicked[0] === cards_clicked[1] ) {
         $('.cards_clicked[0]').find('#img').css("display", "inline");
           winning_array.push(cards_clicked[0])
+
       } else {
 
         $img_info.slideToggle(2000);
