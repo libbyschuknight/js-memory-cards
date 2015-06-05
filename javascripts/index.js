@@ -32,6 +32,7 @@ $(document).ready(function () {
     }
       if ($(winning_array).length === 8) {
         alert ("YOU WIN!!!");
+        reloadGame();
       };
 
     });

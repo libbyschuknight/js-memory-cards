@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 
 html {
-  width: 100%;
+  /*width: 100%;*/
   text-align: center;
 }
 
@@ -17,13 +17,13 @@ body {
 
 #outer-container {
   border: 1px solid lightgray;
-  width: 90%;
+  /*width: 90%;*/
 }
 
 main {
   border: 1px solid lightgray;
 
-  width:90%;
+  /*width:90%;*/
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -42,10 +42,10 @@ main {
 /*   4 by 4   */
 .col-md-3 {
   border: 5px solid lightgray;
-  width: 200px;
-  height: 180px;
-  padding: 1px;
-  margin: 5px;
+  /*width: 200px;*/
+  height: 200px;
+/*  padding: 1px;
+  margin: 5px;*/
   /*background-color: red;*/
   /* refactor background image attrs down to one line*/
   background-image: url("../eda_logo.png");
