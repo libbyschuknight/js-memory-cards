@@ -8,7 +8,6 @@ $(document).ready(function () {
   placeCard(cardsArray);
 
   $('.col-md-3').on('click', function(){
-    count ++;
     var $img_info = $(this).children();
     img_info_array.push($img_info);
     $img_info.show();
