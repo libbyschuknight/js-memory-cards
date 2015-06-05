@@ -39,17 +39,6 @@ function placeCard(array) {
     var $id = $(document).find("#" + i);
     var object = array[i-1];
     $id.html(object.image_src);
+    $id.addClass(object.match);
   }};
-
-
-
-
-
-
-
-
-
-
-
-
 
