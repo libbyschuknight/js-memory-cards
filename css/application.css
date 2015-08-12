@@ -16,7 +16,6 @@ body {
 
 h1 {
   margin-bottom: 50px;
-  /*font-weight: bold;*/
 }
 
 footer {
@@ -24,8 +23,6 @@ footer {
 }
 
 /*#### hiding images ####*/
-
-
 #img_1, #img_3, #img_5, #img_7, #img_9, #img_11, #img_13, #img_15 {
   display: none;
 }
@@ -35,13 +32,8 @@ footer {
 
 /*   4 by 4   */
 .col-md-3 {
-  /*border: 5px solid lightgray;*/
   margin-bottom: 5px;
   height: 200px;
-/*  padding: 1px;
-  margin: 5px;*/
-  /*background-color: red;*/
-  /* refactor background image attrs down to one line*/
   background-image: url("../eda_logo.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -51,4 +43,3 @@ footer {
 .col-md-3 img {
   width: 150px;
 }
-
