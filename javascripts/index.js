@@ -18,21 +18,18 @@ $(document).ready(function () {
       if ( cards_clicked[0] === cards_clicked[1] ) {
         $('.cards_clicked[0]').find('#img').css("display", "inline");
           winning_array.push(cards_clicked[0])
-
       } else {
-
         $img_info.slideToggle(2000);
         img_info_array[0].hide();
-
-        }
+      }
         cards_clicked = [];
         img_info_array = [];
       }
+
       if ($(winning_array).length === 8) {
         alert ("YOU WIN!!!");
         reloadGame();
       };
-
     });
 
 });
@@ -40,6 +37,3 @@ $(document).ready(function () {
 function reloadGame() {
     location.reload();
 }
-
-
-
