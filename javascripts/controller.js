@@ -1,5 +1,5 @@
-var joshua = new Card("joshua", "<img id='img_1' src = http://www.buckybox.com/images/team-joshua-63101086.jpg >");
-var rohan = new Card("rohan", "<img id='img_3' src = http://wellingtontimebank.org.nz/sites/wellingtontimebank.org.nz/files/Rohan%20Wakefield.jpg >");
+var joshua = new Card("joshua", "<img id='img_1' src = https://www.buckybox.com/images/team-joshua-63101086.jpg >");
+var rohan = new Card("rohan", "<img id='img_3' src = https://wellingtontimebank.org.nz/sites/wellingtontimebank.org.nz/files/Rohan%20Wakefield.jpg >");
 var darcy = new Card("darcy", "<img id='img_5' src = https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/041/3ae/04d4230.jpg>");
 var kerwin = new Card("kerwin", "<img id='img_7' src = https://yt3.ggpht.com/-VNCbHXwPKHA/AAAAAAAAAAI/AAAAAAAAAAA/zTHO0QRPbbk/s900-c-k-no/photo.jpg>");
 var raquel = new Card("raquel", "<img id='img_9' src = https://avatars3.githubusercontent.com/u/7959274?v=3&s=400>");
